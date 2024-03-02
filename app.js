@@ -110,7 +110,7 @@ function displayResults(data, value) {
             if (index % 4 === 0) {
                 output += '<div class="row">';
             }
-            const residentsLink = item.residents.length === 0 ? `<a href="#" class="residents-link disabled" disabled>residents</a>` : `<a href="#" class="residents-link" data-residents-urls="${item.residents.join(',')}">residents</a>`;
+            const residentsLink = item.residents.length === 0 ? `<a href="#" class="residents-link disabled" disabled>Residents</a>` : `<a href="#" class="residents-link" data-residents-urls="${item.residents.join(',')}">residents</a>`;
             output +=
                 `<div class="col-md-3 mb-4">
                     <div class="card p-3">
