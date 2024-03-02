@@ -36,3 +36,10 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
    ```sh
    git clone https://github.com/Praveenkumar625/Star-Wars.git
+
+
+![image](https://github.com/Praveenkumar625/Star-Wars/assets/116333254/8b65e44c-0230-48dc-84f0-45718832b9b3)
+
+![image](https://github.com/Praveenkumar625/Star-Wars/assets/116333254/7dd91fca-68a8-4275-8bfd-a2711bb24808)
+
+   
