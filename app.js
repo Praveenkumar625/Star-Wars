@@ -18,13 +18,13 @@ buttonsContainer.addEventListener('click', async function(event) {
         case 'Planets':
             await asyncFetch('planets');
             break;
-        case 'Residents':
+        case 'People':
             await asyncFetch('people');
             break;
-        case 'people':
+        case 'Vehicles':
             await asyncFetch('vehicles');
             break;
-        case 'random':
+        case 'Random':
             getData();
             break;
         default:
@@ -43,13 +43,13 @@ async function asyncFetch(value) {
     displayResults(data, value);
 }
 
-document.getElementById('random').addEventListener('click', function() {
+document.getElementById('Random').addEventListener('click', function() {
     document.querySelector('.container_1').style.display = 'block';
     document.getElementById('results').innerHTML = '';
 });
 
 document.querySelectorAll('.btn-group-toggle .btn').forEach(function(button) {
-    if (button.id !== 'random') {
+    if (button.id !== 'Random') {
         button.addEventListener('click', function() {
             document.querySelector('.container_1').style.display = 'none';
         });
