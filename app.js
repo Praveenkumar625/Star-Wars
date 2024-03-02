@@ -18,7 +18,7 @@ buttonsContainer.addEventListener('click', async function(event) {
         case 'Planets':
             await asyncFetch('planets');
             break;
-        case 'residents':
+        case 'Residents':
             await asyncFetch('people');
             break;
         case 'people':
@@ -143,7 +143,6 @@ function displayResults(data, value) {
                             <span">Gender</span>: ${item.gender}<br>
                             <span">Hair Color</span>: ${item.hair_color}<br>
                             <span">Skin Color</span>: ${item.skin_color}<br>
-                            <span">Terrain</span>: ${item.terrain} (${item.gender})<br>
                         </div>
                     </div>
                 </div>`;
