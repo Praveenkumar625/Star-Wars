@@ -42,4 +42,8 @@ To set up the project locally, follow these steps:
 
 ![image](https://github.com/Praveenkumar625/Star-Wars/assets/116333254/7dd91fca-68a8-4275-8bfd-a2711bb24808)
 
+![image](https://github.com/Praveenkumar625/Star-Wars/assets/116333254/5193e699-aa59-4dd4-8c26-512a41e81a08)
+
+![image](https://github.com/Praveenkumar625/Star-Wars/assets/116333254/54088408-d2ca-4f23-8ede-a01d85d487f7)
+
    
